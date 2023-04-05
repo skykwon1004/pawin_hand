@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', 'Noto Sans KR', sans-serif;
     letter-spacing: -0.025em;
+    overflow-x: hidden;
 }
 
 /* header */
