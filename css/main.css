@@ -881,8 +881,32 @@ body {
     }
 
     .main_review .left_text {
-        padding: 0 0 55px 15px;
-        /* outline: 1px solid red; */
+        padding: 0 15px 55px 15px;
+        text-align: center;
+        word-break: keep-all;
+    }
+
+    .main_review .left_text h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 30px 0;
+    }    
+
+    .main_review .left_text h2::after {
+        display: block;
+        content: "";
+        width: 25px;
+        height: 3px;
+        background: #333;
+        margin: 30px auto 0 auto;
+    }
+    
+    .main_review .left_text p {
+        font-size: 18px;
+        margin: 0 0 45px 0;
+        color: #555;
+        line-height: 1.4;
+    
     }
 
     .main_review .right_slide {
